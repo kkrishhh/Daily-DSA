@@ -6,6 +6,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
         System.out.println(input);
+
+// taking input from user and then printing the sum
+      int a = sc.nextInt();
+      int b = sc.nextInt();
+      int sum = a+b;
+        System.out.println(sum);
     }
 }
 
@@ -21,3 +27,5 @@ nextBoolean
 nextShort
 nextLong
  */
+
+

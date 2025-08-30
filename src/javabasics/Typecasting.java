@@ -7,7 +7,7 @@ public class Typecasting {
         Scanner input = new Scanner(System.in);
         float num = input.nextFloat();
         System.out.println(num);
-        var age = 13;
+        int age = 13;
         if(age <= 18){//if else
             System.out.println("can vote");
         }else{
